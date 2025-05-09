@@ -3,7 +3,7 @@ name: Nuestro primer workflow en github actions
 on:
   push:
     branches: 
-    - main
+    - master
     - develop
 
 jobs:
