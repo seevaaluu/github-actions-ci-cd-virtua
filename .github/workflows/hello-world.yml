@@ -1,0 +1,15 @@
+name: Nuestro primer workflow en github actions
+
+on:
+  push:
+    branches: 
+    - main
+    - develop
+
+jobs:
+
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        run: "echo 'Que rollo, mundo!'"
